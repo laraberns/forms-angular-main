@@ -1,27 +1,41 @@
-# FormsReativos
+# 📚 AluraBooks
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+Uma aplicação SPA simples desenvolvida em **Angular** com o objetivo de aprofundar conhecimentos sobre **Formulários Orientados a Templates** e validações no framework.
 
-## Development server
+## 🎯 Objetivo do Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+O projeto foi desenvolvido para praticar e consolidar conceitos fundamentais de formulários no Angular, com foco em:
 
-## Code scaffolding
+- Uso de **Formulários Orientados a Templates**.
+- Criação de **Diretivas Validadoras** (Síncronas e Assíncronas).
+- Consumo de API externa para **consulta de CEP**.
+- Exibição de **erros de validação** para o usuário de forma clara e amigável.
+- Aplicação de **boas práticas** na organização de formulários e validações.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠 Tecnologias Utilizadas
 
-## Build
+- [Angular](https://angular.io/)
+- TypeScript
+- HTML5 / CSS3
+- API ViaCEP
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Funcionalidades
 
-## Running unit tests
+- Preenchimento e validação de formulários utilizando **template-driven forms**.
+- Validações personalizadas via **diretivas**.
+- Validação assíncrona de CEP utilizando **API ViaCEP**.
+- Exibição dinâmica de mensagens de erro.
+- Estrutura simples de SPA para estudo e prática.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📚 Aprendizados
 
-## Running end-to-end tests
+Durante o desenvolvimento deste projeto, foram trabalhados conceitos como:
+- Estruturação de formulários orientados a templates.
+- Criação de validadores customizados síncronos e assíncronos.
+- Integração com API externa para validação de dados.
+- Feedback visual de erros para o usuário.
+- Boas práticas com Angular.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Feito com ❤️ para estudos no curso da [Alura](https://www.alura.com.br/).
