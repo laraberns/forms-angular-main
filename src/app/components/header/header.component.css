@@ -117,16 +117,16 @@
       display: none;
   }
 
-  .opcoes__botão:checked~.lista-menu {
+  .opcoes__botao:checked~.lista-menu {
       display: block;
       width: auto;
   }
 
-  .opcoes__botão {
+  .opcoes__botao {
       display: none;
   }
 
-  .opcoes__botão:checked~.opcoes__rotulo>.opcoes__item {
+  .opcoes__botao:checked~.opcoes__rotulo>.opcoes__item {
       background: var(--azul-degrade);
       color: var(--branco);
   }
